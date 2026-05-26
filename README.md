@@ -6,6 +6,7 @@
 ![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge\&logo=nvidia\&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge\&logo=jupyter\&logoColor=white)
 ![Multimodal](https://img.shields.io/badge/Multimodal-AI-black?style=for-the-badge)
+![Tavily](https://img.shields.io/badge/Tavily-AI_Search-blue?style=for-the-badge)
 
 ## Overview
 
@@ -15,6 +16,7 @@ This project demonstrates a multimodal AI personal chef assistant capable of pro
 * Image uploads
 * Conversational context
 * Tool-based workflows
+* Tavily-powered web search
 
 The system combines LangChain agents with the OpenRouter hosted NVIDIA Nemotron Free model to create an interactive cooking assistant capable of recipe suggestions, ingredient analysis, food understanding, and contextual follow-up interactions.
 
@@ -68,7 +70,8 @@ pip install langchain openai python-dotenv ipywidgets sounddevice scipy tqdm
 Create a `.env` file:
 
 ```env
-OPENAI_API_KEY=your_api_key_here
+OPENROUTER_API_KEY=your_api_key_here
+TAVILY_API_KEY=your_api_key_here
 ```
 
 ---
@@ -106,6 +109,7 @@ The project supports external tool integration for:
 * Measurement conversion
 * Grocery workflows
 * Structured function execution
+* Tavily web search integration
 
 ---
 
@@ -147,16 +151,31 @@ Image File → Binary Data → Base64 String → API Request
 
 ---
 
+## Tavily Integration
+
+Tavily is integrated as a search and retrieval tool for obtaining real-time cooking, ingredient, and recipe information.
+
+The agent can use Tavily-powered search workflows for:
+
+* Recipe discovery
+* Ingredient research
+* Cooking recommendations
+* External knowledge retrieval
+* Real-time information access
+
+---
+
 ## Tech Stack
 
-| Technology       | Purpose                      |
-| ---------------- | ---------------------------- |
-| Python           | Core application development |
-| LangChain        | Agent orchestration          |
-| OpenRouter API   | NVIDIA Nemotron model access |
-| Jupyter Notebook | Interactive experimentation  |
-| ipywidgets       | File uploads                 |
-| dotenv           | Environment management       |
+| Technology       | Purpose                         |
+| ---------------- | ------------------------------- |
+| Python           | Core application development    |
+| LangChain        | Agent orchestration             |
+| OpenRouter API   | NVIDIA Nemotron model access    |
+| Jupyter Notebook | Interactive experimentation     |
+| ipywidgets       | File uploads                    |
+| Tavily           | AI-powered search and retrieval |
+| dotenv           | Environment management          |
 
 ---
 
