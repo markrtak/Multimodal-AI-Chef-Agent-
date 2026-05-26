@@ -1,4 +1,4 @@
-# Multimodal Personal Chef with LangChain + OpenAI
+# Multimodal Personal Chef with LangChain + OpenRouter NVIDIA Nemotron
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
@@ -16,7 +16,7 @@ This project demonstrates a multimodal AI personal chef assistant capable of pro
 * Conversational context
 * Tool-based workflows
 
-The system combines OpenAI multimodal models with LangChain agents to create an interactive cooking assistant capable of recipe suggestions, ingredient analysis, food understanding, and contextual follow-up interactions.
+The system combines LangChain agents with the OpenRouter hosted NVIDIA Nemotron Free model to create an interactive cooking assistant capable of recipe suggestions, ingredient analysis, food understanding, and contextual follow-up interactions.
 
 ---
 
@@ -26,7 +26,7 @@ The system combines OpenAI multimodal models with LangChain agents to create an 
 * Short-term conversational memory
 * Tool calling and external function integration
 * Base64 media encoding workflow
-* OpenAI multimodal model integration
+* OpenRouter NVIDIA Nemotron model integration
 * LangChain agent orchestration
 * Image understanding
 * Context-aware responses
@@ -45,7 +45,7 @@ User Input
           │
           ├── Short-Term Memory
           ├── Tool Calling
-          └── OpenAI Multimodal Model
+          └── OpenRouter NVIDIA Nemotron Free Model
                     │
                     ▼
             AI Chef Response
@@ -77,7 +77,7 @@ OPENAI_API_KEY=your_api_key_here
 
 ### LangChain Agent
 
-The application uses a LangChain agent configured with OpenAI multimodal models to coordinate:
+The application uses a LangChain agent configured with the OpenRouter NVIDIA Nemotron Free model to coordinate:
 
 * Message handling
 * Context management
@@ -141,7 +141,7 @@ Image File → Binary Data → Base64 String → API Request
 2. Media content is encoded when required
 3. LangChain agent processes the request
 4. Tools are invoked if necessary
-5. OpenAI multimodal model generates a response
+5. OpenRouter NVIDIA Nemotron Free generates a response
 6. Context is stored in short-term memory
 ```
 
@@ -153,7 +153,7 @@ Image File → Binary Data → Base64 String → API Request
 | ---------------- | ---------------------------- |
 | Python           | Core application development |
 | LangChain        | Agent orchestration          |
-| OpenAI API       | Multimodal reasoning         |
+| OpenRouter API   | NVIDIA Nemotron model access |
 | Jupyter Notebook | Interactive experimentation  |
 | ipywidgets       | File uploads                 |
 | dotenv           | Environment management       |
@@ -175,7 +175,7 @@ Image File → Binary Data → Base64 String → API Request
 
 ## Result
 
-This project provides a foundation for building production-ready multimodal AI assistants capable of:
+This project provides a foundation for building production-ready multimodal AI assistants powered by the OpenRouter NVIDIA Nemotron Free model and capable of:
 
 * Image understanding
 * Tool usage
