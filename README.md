@@ -1,8 +1,9 @@
-# Multimodal Personal Chef with LangChain
+# Multimodal Personal Chef with LangChain + OpenAI
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge\&logo=openai\&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge\&logo=nvidia\&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge\&logo=jupyter\&logoColor=white)
 ![Multimodal](https://img.shields.io/badge/Multimodal-AI-black?style=for-the-badge)
 
