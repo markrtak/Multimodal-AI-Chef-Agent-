@@ -27,6 +27,7 @@ The system combines LangChain agents with the OpenRouter hosted NVIDIA Nemotron 
 * Multimodal text and image support
 * Short-term conversational memory
 * Tool calling and external function integration
+* Tavily-powered AI web search and retrieval
 * Base64 media encoding workflow
 * OpenRouter NVIDIA Nemotron model integration
 * LangChain agent orchestration
@@ -47,6 +48,7 @@ User Input
           │
           ├── Short-Term Memory
           ├── Tool Calling
+          ├── Tavily Search Integration
           └── OpenRouter NVIDIA Nemotron Free Model
                     │
                     ▼
